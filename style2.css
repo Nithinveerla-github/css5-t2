@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    position:fixed;
+    top: 0;
+    width: 100%;  
+
+}
+.container {
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 10px;
+    border: 1px solid;
+    
+
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.rightcontainer{
+    display: flex;
+    justify-content: space-around;
+    
+    margin-left: 10px;
+}
+.rightcontainer>a{
+    margin-left: 20px;
+}
+.h{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background-color: aqua;
+    justify-content: center;
+}
